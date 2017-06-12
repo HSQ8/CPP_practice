@@ -1,0 +1,101 @@
+\hypertarget{classtest__class}{\section{test\+\_\+class Class Reference}
+\label{classtest__class}\index{test\+\_\+class@{test\+\_\+class}}
+}
+
+
+Test class for unit test framework \begin{DoxyVerb}\end{DoxyVerb}
+.  
+
+
+
+
+{\ttfamily \#include $<$unit\+\_\+test.\+h$>$}
+
+Inheritance diagram for test\+\_\+class\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classtest__class}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classtest__class_aec748e707bc27bb28fe424722a975333}{\hyperlink{classtest__class_aec748e707bc27bb28fe424722a975333}{test\+\_\+class} ()}\label{classtest__class_aec748e707bc27bb28fe424722a975333}
+
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\hypertarget{classtest__class_aadd18bb55da7e585c8628caa78b63c7b}{virtual \hyperlink{classtest__class_aadd18bb55da7e585c8628caa78b63c7b}{$\sim$test\+\_\+class} ()}\label{classtest__class_aadd18bb55da7e585c8628caa78b63c7b}
+
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+bool \hyperlink{classtest__class_a00fcb17fdfaf47816212afaeb108a743}{run} ()
+\begin{DoxyCompactList}\small\item\em Run Unit test's setup, test, and teardown functions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classtest__class_a522c266a03c3aab7abc9b49e478e9154}{virtual void \hyperlink{classtest__class_a522c266a03c3aab7abc9b49e478e9154}{setup} ()}\label{classtest__class_a522c266a03c3aab7abc9b49e478e9154}
+
+\begin{DoxyCompactList}\small\item\em Setup data to be tested. \end{DoxyCompactList}\item 
+\hypertarget{classtest__class_ac0745ab8bcb4a3ff2d13b4c39c661215}{virtual void \hyperlink{classtest__class_ac0745ab8bcb4a3ff2d13b4c39c661215}{test} ()=0}\label{classtest__class_ac0745ab8bcb4a3ff2d13b4c39c661215}
+
+\begin{DoxyCompactList}\small\item\em Test data. \end{DoxyCompactList}\item 
+\hypertarget{classtest__class_a1231dba15477ba378c4a68995d3278cd}{virtual void \hyperlink{classtest__class_a1231dba15477ba378c4a68995d3278cd}{tear\+\_\+down} ()}\label{classtest__class_a1231dba15477ba378c4a68995d3278cd}
+
+\begin{DoxyCompactList}\small\item\em Teardown data which was tested. \end{DoxyCompactList}\item 
+bool \hyperlink{classtest__class_ac1111bb2bbb3a7870e5092cd5e6aee9b}{all\+\_\+tests\+\_\+passed} () const 
+\item 
+void \hyperlink{classtest__class_ac2a04ec6f3764fcfcd92fdefb205331a}{assert\+\_\+msg} (bool b, std\+::string msg)
+\begin{DoxyCompactList}\small\item\em Assert a unit test passes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Test class for unit test framework \begin{DoxyVerb}\end{DoxyVerb}
+. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classtest__class_ac1111bb2bbb3a7870e5092cd5e6aee9b}{\index{test\+\_\+class@{test\+\_\+class}!all\+\_\+tests\+\_\+passed@{all\+\_\+tests\+\_\+passed}}
+\index{all\+\_\+tests\+\_\+passed@{all\+\_\+tests\+\_\+passed}!test\+\_\+class@{test\+\_\+class}}
+\subsubsection[{all\+\_\+tests\+\_\+passed}]{\setlength{\rightskip}{0pt plus 5cm}bool test\+\_\+class\+::all\+\_\+tests\+\_\+passed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}}\label{classtest__class_ac1111bb2bbb3a7870e5092cd5e6aee9b}
+\begin{DoxyReturn}{Returns}
+All asserts have passed 
+\end{DoxyReturn}
+\hypertarget{classtest__class_ac2a04ec6f3764fcfcd92fdefb205331a}{\index{test\+\_\+class@{test\+\_\+class}!assert\+\_\+msg@{assert\+\_\+msg}}
+\index{assert\+\_\+msg@{assert\+\_\+msg}!test\+\_\+class@{test\+\_\+class}}
+\subsubsection[{assert\+\_\+msg}]{\setlength{\rightskip}{0pt plus 5cm}void test\+\_\+class\+::assert\+\_\+msg (
+\begin{DoxyParamCaption}
+\item[{bool}]{b, }
+\item[{std\+::string}]{msg}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}}\label{classtest__class_ac2a04ec6f3764fcfcd92fdefb205331a}
+
+
+Assert a unit test passes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & Conditional for assert \\
+\hline
+{\em msg} & Message on fail \\
+\hline
+\end{DoxyParams}
+\hypertarget{classtest__class_a00fcb17fdfaf47816212afaeb108a743}{\index{test\+\_\+class@{test\+\_\+class}!run@{run}}
+\index{run@{run}!test\+\_\+class@{test\+\_\+class}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}bool test\+\_\+class\+::run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classtest__class_a00fcb17fdfaf47816212afaeb108a743}
+
+
+Run Unit test's setup, test, and teardown functions. 
+
+\begin{DoxyReturn}{Returns}
+Passed test or not 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+unit\+\_\+test.\+h\end{DoxyCompactItemize}
