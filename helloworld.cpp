@@ -10,6 +10,6 @@ using namespace std;
 
 int main(){
 //  freopen("in.dat", "r", stdin);
-
+cout << "hello world" << endl;
   return 0;
 }
